@@ -12,4 +12,5 @@ public interface Citizen extends Person {
      * случае отсутствия гражданской принадлежности.
      */
     Country getCountry();
+    
 }

@@ -2,6 +2,7 @@ package ru.avalon.java.ocpjp.labs;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 import ru.avalon.java.ocpjp.labs.tasks.arrays.OneDimensionalArrays;
 import ru.avalon.java.ocpjp.labs.tasks.arrays.TwoDimensionalArrays;
 import ru.avalon.java.ocpjp.labs.tasks.objects.Inheritance;
@@ -66,4 +67,5 @@ public interface Exercise {
         }
         throw new IllegalArgumentException("Something wrong");
     }
+    
 }

@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ru.avalon.java.ocpjp.labs.tasks.objects;
 
 import java.io.File;
@@ -11,20 +6,17 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
+
 import ru.avalon.java.ocpjp.labs.common.Factory;
 
-/**
- *
- * @author Constantine
- */
 public class RandomCitizen implements Factory<Citizen>, Citizen {
 
     private List<String> countries;
     private List<String> names;
     private List<String> lastNames;
-    private String pathCountry = "/Users/lesya/NetBeansProjects/lab-1/src/ru/avalon/java/ocpjp/labs/resources/countries.txt";
-    private String pathName = "/Users/lesya/NetBeansProjects/lab-1/src/ru/avalon/java/ocpjp/labs/resources/first-names.txt";
-    private String pathLastName = "/Users/lesya/NetBeansProjects/lab-1/src/ru/avalon/java/ocpjp/labs/resources/last-names.txt";
+    private String pathCountry = "/media/username/3E5250955250542D/Polytech/LABS/DEV-OCPJP/lab-1-dmtr-smnv/src/ru/avalon/java/ocpjp/labs/resources/countries.txt";
+    private String pathName = "/media/username/3E5250955250542D/Polytech/LABS/DEV-OCPJP/lab-1-dmtr-smnv/src/ru/avalon/java/ocpjp/labs/resources/first-names.txt";
+    private String pathLastName = "/media/username/3E5250955250542D/Polytech/LABS/DEV-OCPJP/lab-1-dmtr-smnv/src/ru/avalon/java/ocpjp/labs/resources/last-names.txt";
     private String code;
     private String countryName;
     private Country country;

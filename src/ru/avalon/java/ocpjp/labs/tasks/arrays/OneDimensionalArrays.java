@@ -1,10 +1,10 @@
 package ru.avalon.java.ocpjp.labs.tasks.arrays;
 
+import java.io.IOException;
+
 import ru.avalon.java.ocpjp.labs.Exercise;
 import ru.avalon.java.ocpjp.labs.common.Factory;
 import ru.avalon.java.ocpjp.labs.common.ObjectWriter;
-
-import java.io.IOException;
 
 /**
  * Задание, направленное на получение умений и навыков объявления и
@@ -36,7 +36,6 @@ public final class OneDimensionalArrays implements Exercise {
     private ObjectWriter<int[]> writer;
 
     public OneDimensionalArrays() {
-        // TODO(Студент): Выполнить инициализацию полей класса OneDimensionalArrays
         factory = new OneFactoryArrays();
         sort = new SortOneArrays();
         writer = new OneArraysWriter();
