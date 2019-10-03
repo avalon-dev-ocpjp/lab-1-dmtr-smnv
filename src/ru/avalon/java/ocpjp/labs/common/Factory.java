@@ -14,4 +14,5 @@ public interface Factory<T> {
      * @return Экземпляр типа {@code T}
      */
     T create();
+    
 }

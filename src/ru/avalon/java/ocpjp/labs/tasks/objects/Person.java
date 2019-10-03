@@ -18,4 +18,5 @@ public interface Person {
      * @return фамилия человека
      */
     String getLastName();
+    
 }

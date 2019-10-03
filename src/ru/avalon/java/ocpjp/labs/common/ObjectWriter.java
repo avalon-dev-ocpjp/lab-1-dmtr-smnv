@@ -18,4 +18,5 @@ public interface ObjectWriter<T> extends Closeable {
      * @throws IOException в случае ошибки нижележащего потока
      */
     void write(T object) throws IOException;
+    
 }
