@@ -15,4 +15,5 @@ public interface Sort<T> {
      *                отсортировать
      */
     void run(T dataSet);
+    
 }
